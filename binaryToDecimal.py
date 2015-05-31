@@ -6,7 +6,7 @@ dec = int(input("Digite um número Binario: "), 2)
 # imprimido o número em decimal
 print(dec)
 
-# ufunção que comverte decimal para binario
+# função que comverte decimal para binario
 def binary(numero):
    if numero > 1:
        binary(numero//2)
